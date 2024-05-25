@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+}
+
+.tradingview-widget-copyright {
+  @apply hidden;
+}
